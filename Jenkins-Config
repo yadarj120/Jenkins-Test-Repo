@@ -1,0 +1,679 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - string:
+          description: "Jenkins CI Slack Token"
+          id: "jenkins-ci-slack-token"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgFQj2MQxRXdwZAitwVmfYD5wG01fiyy9GsN/bGyj/woQ16P2zYBHYpR2++puY0ByX}"
+      - basicSSHUserPrivateKey:
+          id: "rummytime-jenkins-test"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: SYSTEM
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - usernamePassword:
+          id: "rummytime-jenkins-test-2"
+          password: "{AQAAABAAAAAQbeC07CkS2yEH5/4gQMz76Jvij2RdeT+fflGEjdn1drE=}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+      - basicSSHUserPrivateKey:
+          description: "rt-jen-repo-tech"
+          id: "rt-jen-repo-tech"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - bitbucketToken:
+          id: "jenkins-tech-integration"
+          secret: "{AQAAABAAAAAwZwWU27XjcNtCQ7J1a3J4trdZVy2gSbJMdaW57vsFL6Nb/px2OqhE8Apvs8eL4a1E7jXIR88Z8w7O0NicWLK9Yg==}"
+      - basicSSHUserPrivateKey:
+          id: "b96a096d-5a64-4191-a6b5-ca3477c8f23e"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - basicSSHUserPrivateKey:
+          id: "Jenkins-slave Node"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - basicSSHUserPrivateKey:
+          id: "9ac6f6e2-ef72-497f-9c72-1ec7b3f9bced"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - basicSSHUserPrivateKey:
+          id: "a838ff80-0ba6-4e7c-97db-6dcaa79bf81e"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - basicSSHUserPrivateKey:
+          description: "jenkins key for cg slave"
+          id: "jenkins-cg"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - usernamePassword:
+          description: "Jenkins user"
+          id: "e8a2cb52-6098-42f2-9a16-4562d1e9525e"
+          password: "{AQAAABAAAAAQJtOZPs7tg8WlrHjJw8kcsoJEu+NEch1rxZRlWn0NY7U=}"
+          scope: GLOBAL
+          username: "admin"
+      - basicSSHUserPrivateKey:
+          description: "ankithbbcloudtest"
+          id: "ankith-gameskraft-y8lfqi"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ankith-gameskraft-y8lfqi"
+      - bitbucketToken:
+          description: "dc-test"
+          id: "dc-test"
+          secret: "{AQAAABAAAADQYhSHiZpa3dQL3Ntv9AvPJsIzZrVVEvIo78Xw1s0MpHocKRdFutW6MEr2Hbi1gGFmiz2V2cG+QHdLI/VjtDlgOsLHYiHwVdbdlgPaa2f+sXeQ+pehssZmxWxf+X7DTGZCH7fOjUjfyeBComQeNoeunT8X5JKWUMnPWlucu1YfifUWVUzwSTk9I12aief/SDQLlxhiczTbrH8XGuiGHbrZzVcivMkM40MaiDPTulFI4EnfMCAA6C1vZ5TsnkhoqlMoEzsR5WfC65VwDh7ipIJnUEVB7/n4UUIkQ0sF6qkVrgI=}"
+      - bitbucketToken:
+          description: "dc-test-1"
+          id: "dc-test-1"
+          secret: "{AQAAABAAAADQFJyOXcjfDWhwHnBi0YZepUF1MvXgwkAoRakxS1aaMmzSVk8lYYwoaJRql6OupwCpwSJJGEFPR/7YKJQTrzsMgy9ZOhbQk82w5rDeK1vNgKeEsaVWYYKQsbLyD/WcHV/2T1KqqK7lDD81rqFI4gXnoQ4mYjjzDXXVz3rgQWtmujcKxgpPhn2z4b6N8tcvkL0cVnfT+9SiBy7dKAj/JFNlcUTd2dmsqi7Ja+kHt7mmbQfRRoxKTmqeiOfJ9mrmcDrktcW0FDx6riKLOrHkeoZfeoKdfmD0gMpnvdpR5ycQ6fc=}"
+      - usernamePassword:
+          description: "ankithbbcloudtest1"
+          id: "ankithbbcloudtest1"
+          password: "{AQAAABAAAAAwNE8LDbtcrmUH3BwgxfMbJjgiWhOaTfHhPTz6YeMMxrEhww4VepSZaQxqr4n4a6JoZLWNukOYhFg3kVorU4iMWg==}"
+          scope: GLOBAL
+          username: "ankith-gameskraft-y8lfqi"
+      - bitbucketToken:
+          description: "bbcloudtokentest"
+          id: "bbcloudtokentest"
+          secret: "{AQAAABAAAADQ9WfbVuicU9S7eXKOM8+YvSxhRpGMvjwMtL7wPcxyuK0tD1t4BToVQunhICar/V5i0lQDm24Ss/IMTfTBuXTEEmmXAyod2k7b/nfijGWMwC2xhGujjLpXW6tZOPB4SkR0n9g2fwm9mSFFckrxPwMUwQgIRPFksLVSKNnbvTcxEfk7llq0wIsWE2DKao7i1gmroaLeBJls1aFb+jLEUhKwHRTHgEfBW8sHJFM/HUTzjE/Uiuv/sAo5jHzbRzOrkO1YAbmAedWON28iuvloutJfxXpo9kP65JIQLxKr1+I9OGs=}"
+      - bitbucketToken:
+          description: "jenkins-bbcloud-dc-test"
+          id: "jenkins-bbcloud-dc-test"
+          secret: "{AQAAABAAAADQhLEfafTcOTpDDn8DMTRkHbM9ANL0srb/Dx3EtagVI3/LgQnKqngP4YtPyumhXq3xWWFqgNg9My/48b41GuxlImAa4JsTnEa8Kqm5tXTWGbOVj1FuoWZp8ubtMRhFHm3UKSEYH4XKrrYOae5xIz7k9XioRukLBtu4FnXnFyAjMyi+q/N/HYn3zTOFTUkyx0VfLtvK1ZRCaIMYu8C4jZ2b/TIo/FZdZ0H/vAKsxYiSZK01iq5uTwKPHpvqVRCWcScAp+xWCJ6JmAYe9lky/EFxczWLR899oz52v4UExe8NQ2A=}"
+      - usernamePassword:
+          description: "Jenkins-build-status-creds"
+          id: "Jenkins-build-status"
+          password: "{AQAAABAAAAAwXUEhY/PCxOcCmNXS31Sl60Kf9LHebCZBzvIv7/+t0uZEWinUwzbKRi033IspxVeO9iR0e7YFzQzo7WzWAB7Avg==}"
+          scope: GLOBAL
+          username: "ZkkyAEcC36CyZvPUaE"
+      - usernamePassword:
+          description: "webhook-trigger-jenkins"
+          id: "webhook-trigger-jenkins"
+          password: "{AQAAABAAAAAwOgIVOC3UkhpGpvpk9ZnJvdQLyTU1xhE8DyjdtWCCd02nB+J1uJVuz6UFjVOQvHRHm/VDhbDm+d8ZsjgTpa3Jbw==}"
+          scope: GLOBAL
+          username: "jDZxQQsEJh5RxzLGZS"
+      - basicSSHUserPrivateKey:
+          id: "jenkins-slave-new-23oct"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAGw96KHacsqLl5YxgHo3oiSTuRkoVig4T/yuHiePYu9jmOBTdTjvfJwK8DAINOerxmGJsixa1ITEHdEgxeU2ccuOaig4cZqutJtiWbTkjsjt0y+IrchXz3utDJNRcf5oi0twYwOnOW15e6KxyIfrHCjP2OXteNqOX+uiCe1ifC8tCgD1ljKD6vUWSENQKB4zb3bUT5AYEfjkuNPZkWPTmqlTKps3Eg3PRD0CRYqQKDqPX3EZNo3d2FycNa/CFFX+d4lQNdGI0thynrBEXowOTsZhUFDgA/vOH3KoeR4a818LpvArfIVGbdgNFcfnLGV2W4fZvQfetkLQC3i6ksOCCJW40NlCWtLMl6KfZcG4TAjzVJLaVRtMVg3A+UI5JgTNQmgrWYOJmKKYCeD4ZDdmZ1mZiBg/2Fr87yR63qmLDd37/JAqI+yoSnvork0VI3drZ1+Stoh2zywAnYjvl9Nmhn0ekDrM7i04vGkb3KtlCTd+eetat3LHThhUwGENCXULCfTD++dcN+2bLD5bC7OmY6ynSAScJiReSY4ILvrQUfLZy/uA7pdDB57YXyOzzWwksQjIzkhsJDvckN6yTDkzF5bJw==}"
+          scope: GLOBAL
+          username: "jenkins-slave-new-23oct"
+      - string:
+          id: "sonar-de"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwAF71Kj5qtlKMyGnMKnMJup4ogTNabQyKgyehDVXgXq8tmzcaTNB/jKL27hrI6c6AP7LfB40IU+38Dw3psVpfHw==}"
+      - usernamePassword:
+          description: "DE-Rummy"
+          id: "DE-Rummy"
+          password: "{AQAAABAAAAAwzK74ph0laMS0x7+scYnhDBPMidOt5zz9Wc5LCKP7InmTBukHvDzAk9XjA/a57cmerD+rQFCZKoQgJD0v0k44CQ==}"
+          scope: GLOBAL
+          username: "gameskraft"
+      - usernamePassword:
+          description: "Jenkinsmultibranchcreds"
+          id: "Jenkinsmultibranchcreds"
+          password: "{AQAAABAAAAAwuufphNR/qDWdgJg64Prx4Jjwx6ne7NRrR9aRn3Sr8Iz6vF0VxAvJexNB4KINIJJfBzVSYe/2OLSSs9isTf8VrA==}"
+          scope: GLOBAL
+          username: "ankith-pandey"
+    - credentials:
+      - basicSSHUserPrivateKey:
+          description: "SSH Key for connecting to Jenkins Slaves"
+          id: "jenkins-ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: SYSTEM
+          username: "jenkins"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "SSH key for accessing bitbucket via Jenkins"
+          id: "bitbucket-ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+          usernameSecret: true
+      - usernamePassword:
+          description: "Jenkins user for ops-prod-infra RDS"
+          id: "jenkins-infra-mysql"
+          password: "{AQAAABAAAAAQXmDksTa+ujLKAs29c0bes+xt7y4M1hZiSv7bRMcAzrg=}"
+          scope: GLOBAL
+          username: "jenkins"
+          usernameSecret: true
+      - bitbucketToken:
+          description: "Jenkins Bitbucket user"
+          id: "be4625b3-d9fc-491b-bafe-5c3d28cf6faa"
+          secret: "{AQAAABAAAAAwg6G8M5hq5R6iM1vSPU3Dy8MF7SGamjfj0QNjKRW4aiKgamFpw6z/FM9YFxvBB06WzvLwyNQw+gmA3u3clTW9yw==}"
+      - usernamePassword:
+          description: "Jenkins Bitbucket user"
+          id: "jenkins-bitbucket-user"
+          password: "{AQAAABAAAAAgYrqMMQJRErZHTOzlsbVutnjbaB/j1ijcWFrygX8LVUeSo5IdVwmsAj63tqYli1Am}"
+          scope: GLOBAL
+          username: "jenkins"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          id: "rt-jenkins-repo-tech"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          id: "jenkins-repo-tech-rummytime"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAApQ5NlxPek33A7DtdXeErN5ksjofhWUqT/K7xzEWr67LnOxVc+gd2VFfFlms/qpF/0zW4pUTQLMsFg27PFKKI6XiUa2j2Yr8MwzihBU5vPhXHoB/wCpKRKaQoDLKWVBu/BLuIPAQMpg140qUIYPgsDRJBT0DJXMpZl+QcCOHuRu5avBwtG7FWM0IaibRlx6lWkXWHLrXk3gCpr8wFtVETYEzGmGCMc1/ttOXR5KgVmlgT2XAHkHH27O9H4eZWrpJP65mzwaDG9PcJ8strMqtBoJ3RBulRW3AGMsg/NcDSgPWndl6r56OyYHA/Ij7oNOu1D8zvPmnRiFFuvJGSvmn35t/fFaLG0rEuUNR1ybbg1AFVpONBQ80gKV6m9fabFOrPXmJId15BUDIF6FwmN8koKYsGFSwYIdlv1ZnjZYsb/1QYOQmmIBW9lHDrh/XNDz5dJXJoLKRyFA8nOl5wDKxcSitib/m98DxGuYsmHn/jwq3Fzq9BU3fdStPb0+JuAxshGiZwJN6TIE3uULjopDDsSb7TB42ITRV5be/G9oivmhyfQlgeRvhlhS5DwYLm/7KW+SJnEUIr4eA4gWEZsIccrzGQeoTuo36/wb0Lph/1vl3b3KY1bv91JhhJXUmN/rRYbPrX2qwDi2HJv/BXR1hHXkd5fMdV6nU4Ap64OPqf0qTPOebf7fCikK2x0yweT39HKcyCCF7A5W/b3F8dIGE0xn5GlAdc6gdP0rPiaDMmRMfafUFj8fGAGIA9o//K0J4pMMhq7B2t1VpSMf1lKhxLqgvBc1ZEA/Cm4KoUsEw3RNC+2dvDdFrfeYJ4PeWUyDI4euk2hxP30yZ8GPXTfqbCAaQVoq14vq0LdQ0E3lbK316LkOjQv2anQytp9nSDZfAZ5+yn6c11kZCFnVrkUcpgHr8gRNVNYyR/wI1iT6Bv4DwEXIHkTMVBWSDPefAuEqnUPWXYM2OuNaSVSRDXhlKRnbEGdP9GAGZka4F1HBh30TENjmBQaR9LqwhiEJBdnO/qeZEGrl2jF74DObuQgKYyUSStc3FT4axJUkXQWF7Qn3qeslfQUj76tWw6Q2gzdF5kvvjo8n+gNTLLj3/9FEQcB0qX0L3HW8nGODdHlgucehXTqIL8MSN2B1RvNIFCFdExykW0RRg1QuHbZdC0L5VESj+tz/boyaHN555s24Aj+KKXFo1xqJrLGZ9yVyYqc7NjJIju/Lum85NfcjWHYHBCropGxvD4TxauGA0+lenusOg69c4wh1S0mlnKs1231izwXxpfm9Cui4xIsPTAagrRDbzaXHS1qEKVYYXAyaharzzeOGaHxrKP6OuYbqZJx9v7Pbw+KnVFTdlv6HuHvLf/91Yv1gVJN0rFCQcQzPGbrij3IYHQBc3DxazpTwLLbV5VpSi9qZ/A9kfepV6tdzbTvu2L5mSKAjc1NlUJy4MhY/QcrOKRuhjRSp04u6ttPPlTwzf6TMVgyPBC419f2+gDn2poJYUdKPsZPGAthpcLO7m868EAedydvoR9SfyoNDOoHAM8OvDQ/n5H81AwKNZPufuERm0g1lySOrGPvKsI9jEVhjnsWLsn+y+gpSruQOI68gbIF1S/DV+a9GywGzL9YZrSTBFTbpWCKLxhH3brJThmV4O+kBlUZXkDuCn/LfdPBu4pWIpmvSF+4r8eDsQOdfyOXneT1p8LEpBUwbTnUkoT5QKbd27ageI30PwUYyb9YyqICOQvZynFY1xrCdCljC9Rr9M6re7BuQeIMXe/E7P4Xkf9N6oJ9P9HJmg7y8EMGLtgn0cRNRQUd3gQmmkOUSaOTs+MgXBXAbg6ZTEi3Cw9O7iu+9o1i45K2LTjLIQ+mZDKJd5YLdj5JtnSr0LCmQg8jgXQ7t7K9pzgqYTgDezgX4Ilt/MFNTtfwyBFXZKHuv/SUaeWWmP+3gr6YO9H7UEnBIfhQh2mH8sWxYwduiRQGqwZyN5Bavm1365GuZ4yT1FRo+7dyXLEAbdS+u5LrgxJekTBT7vNLHT4j4zcKYqkNYOWbiHqNxacWwzaIkBOarhJ3X1fH3dSqmyUszd4zU1gHyTuRvk/smE+zyfJ9fn4iHzjJCrvQ0uKxXF5qfvQiufpoYNhL58RiiAy+CJV1ITSoo3ZS+NkrYHY2J+4Fv3w4pzy/94SfnXiq5WoGXT6Obdvw11vqXAWGeezm90O0WGh3QO1S5x5yEnYF75Kn/NJL9xWHH2WxTqYAaiyuTc/j2Qj6KHarRKKX0AAHj2Kb8RXCu/9BJJV8akqAs5cpPOEdpEs9shXgjJTOaAPZBWsUZlS9YQIplZSqDC3L6Evkt8sN3SNsdWsrbckDOrFIAPOo063seYsxIZS0+IeBANMdNUgGBX1UJ8G0jBCxOx29TPkQ2x3vAry9fZL9R2D5PZP817yjZhkuHveSg2N7kt5yEmoicYb+7LqbE8E4poodM5JmRRJr2iHbsimzNg0AkgA0nry8WAxLlD3Cml46AMySiP7sMrDKsJ3sr9m7AtX5Z+2U+/bmSbxaxXmuimSgis5M3yMTTbuBTrHMUi415UWRe3n+m+2+H5KFARjKP/Bx45li3M/1pecybPrv28c9dXdv4nBqiEYpeoTVF3dIFjNPfkDO+qznysREkZDSfUTOTIt3mTt5hFp47ntxc8I3B4lN5IISx8gGQ/VZBjgZlPL+RCPkbiKIfchEQAUI2+Cmisic9Qk7+XODYRHjFQqZnmFnbS3DNxFjQYJ5Y3XBhrf/4Rp2Q6eIXEjMc20VT2ci1CEXcBGxiwwEq9AlAGTebhKZJ1x4ktKFWV3+0KhUNIj3NhwMaPl6S+ykCc3+BLjYj3mb065xSLzCQt36IuV39ZRPOrDDyDIM7pbNWcESYANhzXa/KPqQCDn5Or4ateJciLAXEG87qT7pFPxhLt0P/G1NtbLPgj/qPoVQQQBVqZNjkFMqPNQ5RsWVylB2JhtfHXEvYd/qQqmwyp5MzXhH0GxgtnfjaFkBNYYHYSsFWOkzGdY3M2PmJXmIuseB4dqpzApm8fHqEyUYqZMqqjhVx76FlLzbXGPYG0IMNtEpApxLiySfaf8MKj672Z5sWB35PmQ9Qen0sGkbbqdSxsYb5vthqEiLLcdU8iZVcs8DLytWhruF7tGzeTx+VSTHi3fEObOrEGvQeLfGRs6xJSqOj3ntyV8gnF5fIBk0DpmTSvFGr7WR0b4cLFZYv/V0yJAN2GpydFQdVXa+AqhkA58dKwfKsMHs6TTPiSPeRK/7w8+G+wLd0yhbLTASqEzLJOwDaswyD6vKBRQBOg6r0wTY87+v0sZWV/z1SveWO4wl0PxbgmSVP4HUWA7BcJHV70Li4Pbqcn4CPtzUFSCWKa+8JswlkuuXfa1nz5FbxdAWhpXxfNOHOHsRQkDR8V1Ft3uX6/OoYGpv3Zs5QrBnQ+H5ZebAdBIY8G4VRIXHi7kOXQs8m+FfH8ktEAhEFYSLuU9FW+lvGv2quam6e4jjPV0tushC0LWHPm2gg2G3IsItStx9bNw58LifLmlO2C2KppJs+2g==}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "rt-jenkins-repo-tech-test"
+          id: "rt-jenkins-repo-tech-test"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAApQL9SQHUXYwXwCNPU1iTjKQKVjsrVPLyDdnjmk3Z6zHs2EjAorW+YecSh3LrcxGI6BGVqExw3I7y8C85ZH5XHOfT5IF89n2NM+lOBS8Sf/qC/oDDTanPDp8r7pntqGl1Lbf2xXb6NGnJbdJZa5pL+F1EN94IIbkHwBlB+Oy4Y9jW4wL8aX1hWsDu9J5O4sq+J6Lp0p4P5PzgxfWjtH88VfEjmKAIeBW+appLlqJuCWvdb2KlACoF2fFPD8DMoPdvyfyQRrhDiMNrNgungZS+D15QbqJHzaksVB5FBwZ5MNFkCUAvXZl5zq1epHRUXqAqDhW+2qvhAMi2x9LNm5TdvVrHeoQv+fCtswTKSpJGujqB8J9XyTQbmze2DxY3lEvAVZ47aScrUItM1uGt4Wrh8tOB8Eb1YbIqLaoru7dCc0lvFRBGW3V8eR44deKg1Z9ePdQq5+h0Uu30rVwwZ0ETB6lHEFZHlv8g/CyOwjjurT/jeXdlo7rA1v5KvrjSGUb/sf8n6MTGyfT6MJKWVOHeA2Ujw2X7kXFXeLcJ6JwmnZl8QNINq4IRGwWwvKZ/6do3xV4RU7bKs0qhM365waK8nusRPdefHbdq1dkhm6VgPey+XW4Qw+nN7DI7oPCDwhZbYbDD7N5j42A+NBmtgfxpR4yzRiu7bUAiGaVpC4TuuNW6GkisjZRp6MWh7hGFjhSpIWZwR5CjDLFfKdNJ/N6Sv89jCaD0lbajpLKwBtv/jtCUM2nZ8iOEabJpEnd6c3dC0XzICPBJ/VVgm4KhH+xMPyXXNzNVyfNOODjCEF8JytiXORYtxFVqxKalZ+0RC6z0WGThwgu2ZmTZV/66cQ68fhSsheTFQDHDCtDo3If9MbRRUsPo+ql+VE9i1cSpIk5VOJTRf3SBWL2Wkp6UIrdqkAoWrJ0l0h12AlJXtQyZAkTKULQAkAoQ9wED+J20X8QX7iVDAZiOm9qg0scrr+WfHOAURU9amItFLn0ijnY2wM9VvOdfrT9vv6IhvA/O/1JU1ciZp2/J6AYsG3cTkNRgIGQm5rHMu4FTDldP5dNe3SmMJerZUdrfKal3bt5t1Jxy41WW9WLXmKFZNPqfpZ2OmnMBuYCFRnMF9zAYq8S7GJQol4DzHekMpEl+xD9ZTWfsc4Cdqvhdt9NL7MxItS1EB7OlLxFgNGzoIBgMhUINdeCgJFGYupDqePM8biycCIl49/AcEeMDyhPJdxOF+GhMdbJ+dZqHH1KEk9DAhYIOFGeIXQFw5EHU1BdQcaezA37vtpGG+AYkCKZEfdRFmL0Eb5uK/hhvWAEzWbuVQ/+ju5KSLJjFoDI9/PeFbGBYnfp+5Qlvelv66aHl3aNSAbjPgyBVZHPvfWAQToYEM9XOn3x90MjLGRNwzAXYM7A2bg03FHvU5i2ssg40FFTmb5EJdw8uM5IMcd1fK2Gs/jp2LEs91WNaBi7vi5JLGvwsFb9B4wm9ZXLN80JCYKWAkHnhJrr/nVuij0mCRZjK0XZMLGKl3S1Asimrxung2j1lLf7AHqWPIVw8YoBoCO5s2zDmq7at5ccJ1SBmi+nxXNK3+hx1so51XvrZcJYbt/rfls3ljHOWa/UVNo5LTpxv/WqE3JUTgUJgh5IYG+k/wfiQ6Qh0VTWmWDJRjf/fCgGrGwfBb0sJwO/Yr9aYvEjoSCSwwv6EX7ePEibgTuhsgi+3/8VqXSCqSG7jobLeD/pP12+SfSzM90Q1+d2CVghfi4JYDnsUMmNQ5kf2CBN3OJP9j7jelZnt4SV4t3t+SYkFpJjIv5I2/TxaoDNE1DiasPW8oqay/Iqb7B6PixwC2MAIV6ouUP5YP+EpNlJHBd4GRgi9n6FpR3Ajx5ErF/26BQFfJK7MR9p4JpXcnl1RxZnegDPqHE8wIgW0ZujHCiZuVZZcPXXUwUdPrEV16Lna1G0MfzeJD3Y/XoAyqRWL0/T3saQYWRZ9eFUaRXYAPtFCttEBnWFkSdUzgg5ch225cFvcfWsSk2TfA6olVlz2htuL0W4vxQLdJrCJap2ZhZghIqkLPu+Nk7k8h2P/aGMuv941AVRKaFM7xQyOpV+Ssc0WjxhR1a2IywJMdUqzazlXbFBvs2iONR7dIzm9zjYIKmZ5iIXc+ZCXlSEMUc1RXnjMyRU0A9hhP+wMrE7ffD+fP/B4x8WpdedDIi6Q9pzF1+P3PAQIUe0fsSuMLe57dlILwvIh8ll+d2jXfj8Koy4PfYh8qLD5JbBGfGjEPu4aQdaG+if0F58coZqxqE29V7k42s7JT8T3YAXk5oaRrH2Z4G2766KjgPsJBml4eQ7cZhiIUblfpgFv8yz1w8W8JgArmAKKYLJzMnQbcGhjAWaC2iQoHXnUxk1cLW0RaaPoO9Qqa4UZfVSgsjExcyoeqLRog5VF1ZSmH5JcWtq22TLVWT6j/IXfOqu02DIljo2huqmVfu9vOXKBbt7Mah/xO6IsyGlhfJ7whzibZlvYxAJPDrJwGYV+F1erORrkVwZnOdEtzc/Pa+j2+uO7ASCCMO5OhfE26KR8Nx8bS0FjEqoVB8Bqrv1oa6BMQB9pr+DNTVoSpcS5KolxfH6JvWwa9VdmV3EMuOMnIKs7QKTj23fGtN+TLVFOLcb/+RMYHR+vuh+sPI97eNj+dkil0tJHDJtJ45enzpybC7PJ/uFUepPCHDvbUwgWcBRaKLzZNOuMzS4r3eywCYxska9u/LD2byj/eLVqAJCAnjuUrcBzL1epphpB8m48kCmDfLOTpFjfns4GyrMR00QJMFo8/a43nwcb3mJfDiG8shqAaXVbY6N1PYemJSBDZ1UDTPT3gwzZVweva0/PaKEwoxBux+75F/fbJwCzIte6N8jUpbrqNakT9hDH+NS9fCVa3jN1x0/92FmhBAGZSuCkxuI0w7xGW+OEyXMdnO4P7z5FQJJRHfmwxufCZIgffuNw67vrZhtZCWtj4cNPDAhBt9a8xC1mtKCyfPqZ+Y991KUotOCKoz4gkCVGtcszGs61BmnfYDcWRGiO69enG8f5bqpAk8g1MUL5s2IbcXmj/ggZRRA6cBA8yzS/aVJcTJbNrFBOy0DKTCNkJtQnLxoRdWtVRZUsvB2yNbCnHVNFmo1tGCnTmNUctJDpud0CKeph/jGiaXXbdJd9i2IT3uLxOMSp3/tFo9QmTbECCkylRQ+/bDwNR8DJa6o773rNZ9+ukW0tC1zXe8jt/zwAcTQ5wG1FgobqOoXZbIGq0KDp9+9nxWk/14v76S094IeHxCzUbWIe8LaLbA0sWo+unyIwqHugwzB2WiIWFJXLkBNT4Cd7pdpKktfI7WuwqcRCOgmwpZVTqjj6vSRVhgSE+Mi9NGhmfqB78KHIZDCIiZrJ+xv8dpJVoDrFa6t+7LH8d+u96Pck8b/V0lUEv1mQTdnVxEbvDnHenmhJOvIAlzG0Fk4vXETeoOTTVbmXgRmJsFwFyvZlOreCQIt4CN2Q0Wd8ZVBBlKGcFF5YhnErZIwCa6jFwkINFRvjq5XXCcfQLe1XUnjC4EkCrB9Jbu8w==}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "jen-rt-repo-tech"
+          id: "jen-rt-repo-tech"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ci.user.rummytime"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "SSH key for accessing bitbucket's Dracarys repos via Jenkins"
+          id: "ci.dc"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ci.user.dc"
+          usernameSecret: true
+      - usernamePassword:
+          id: "jenkins-tech-creds"
+          password: "{AQAAABAAAAAQQonKis3OJBXuq4KK2n51WrDLnroAEEfXSssWXFaGOcs=}"
+          scope: GLOBAL
+          username: "ci.user"
+      - basicSSHUserPrivateKey:
+          description: "private key to ssh into rc-prod servers (common.pem)"
+          id: "rc-prod-ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ubuntu"
+          usernameSecret: true
+      - bitbucketToken:
+          id: "pandey-test"
+          secret: "{AQAAABAAAAAwpQ6S3Uk7eAz2xT/4TEUVjnwXNGCIjeEbA8r2ZsiHjZjH3FZWPbROh23ChYr7U3SlAljRvM4UrhSdWnWFEFxxdA==}"
+      - basicSSHUserPrivateKey:
+          description: "ankithbbcloudtest"
+          id: "ankithbbcloudtest"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ankith-gameskraft-y8lfqi"
+      - bitbucketToken:
+          description: "dc-test-2"
+          id: "dc-test-2"
+          secret: "{AQAAABAAAADQGkW0yx2p3Ze9eXfb5zmNp8mi5Wtt9Rye3g9Vj2EGkxjhPWCnfm87h9IhyrNKqAWGUMXLhckXjVHTlCpsRjKFj04pvJFjdrbJ+EjuA7ZEBF8fdjYFCotX/YmBUA2NR5NM4KBpsTh8lv303bloHRObT/Spp9B8vSu57RgDiR2uxHLw/VLTRTiFtPqU/3VsHeISlQFcC0CFnI49ALl6mYz2p+1mhIHMP2HmignsZd7qXGr6d0c4hJW+pPSpO8/p1D2U1LhLxuUJHC1CY8rtXJElZIp5lwqhlPBPhSaumOVY1hQ=}"
+      - bitbucketToken:
+          description: "dc-test-3"
+          id: "dc-test-3"
+          secret: "{AQAAABAAAADQ8W/KCJCKDkDSOoCqQFvsI7CSYxdn2V/07xUnQKYxG4ZrwUuBvTUG3+JA5tGZTyNyow0WJTOYAIQI9KnwQ+rDOdsexaYxbU9Cp5kqt9tQ82Ak4TDT98GsBCxtQi2pwl5pkN28tABnV1RYkYF6wF/906N/FvfOrDoLKLvWafdpCC8wEn4InzYOrHrvks80Lk2MbYvIY6WR1f3+ZbpV4wwgvubDh9r2GmMrYqqqLuOoMUvgfIMHfL2R8bp6Ws/qav3oh3Rw5i4oXRhFg1H3XMpU0xcnS+9IycrwjM7v/by7FAU=}"
+      - basicSSHUserPrivateKey:
+          description: "bitbucketcloudtest12"
+          id: "bitbucketcloudtest12"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "git"
+      - basicSSHUserPrivateKey:
+          description: "User with SSH creds for AlphaTeam Bitbucket Cloud"
+          id: "AlphaTeamUser"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAA1QxHJPJI6WrFrgwdkMjdcQpKZJZhJCLrEWs839Iggtx7a6Vt6L0NFSn7czWa/slgn8t6xHuips6eC8Lqurk+VbSDyTewF4/o8s+zdm4AJo+CTZ62hzpgQyikYqvZGRW7sO8kx3goVXL6AWb7SHLAVyZaKUthb5epD9X5EjJqlF3A9O/oTxOJyGg3GAY9RJHvBUIcJrfWTALmhG30Pyx7oPWShkSm/86kwPd4QahMkgMy8eEGuevoET9Yu23gr6GLXONKMDOa9faVfpfHcRzi2GEkSj5l0M+O3fEC16zzMVpqQbqJMICO5c4SPBp5OGCu2VB9ZLJmZE5cYef6XzeZoQ6tmD7sWreVbRRMvTyQCxfggCbrWEwZqIpM8mZ9v+JYYnetdtzFKCwx3YbxqFXIjoxEVrisVqbdIvZz5bAnt+hFvh787NDjhaJfo1BBirgBXflQvQkr+fhuCJnRuSLc8IB/31XRqM9Kp0lwvF3Gef5Yat+9c1DvP7cru5oNMQF25UwMn1yIo5ivYaI013KhL7nBvdX6QGlZEOdeDdzKtOMBe/VPK2K7SHjRTB7mf2Zkmu8RfkkqEbfn8buWLSEQ9gHW+ovv3gLA7Mv1pb90LNDCHhG6zodblGkqeOCZNBb+xxBobn+0ZkkgmHQlgWJMd/pUrpglEjD9bqV2GuuzebZDdl2ksEc7fTkGIqDOb3huuJ5evQAQyldqT5Yf9Eh/Q3cyoirXRsxiRcG60JVVj3j0P+FUn7kW8ISRBUY1eOGR4dAK+qC4Sv+7WT6otCeTFIb6k5ZO94lxwuGqmzFv88+TU9M0Caj5cpOO3iX0S2BIX/HcccaopDUxjt5diRl07Q4AdOlYuoD8YPAFnQWlyLHC8uYaEqvBctYmZgKFVppXOfIw531ZPPIaJRFmR+aYJNjLGcaabYsSTjHnraZ4zLmLy2oDrHl5mcrWV2EYataso/OBBpASs6XeAu9UPOswyVfDnYR6ph8CDJwBKPT8JVWwF2obHqTRZDLyzqr1FvALmVzJFhSEK+i6QfXj/gp+PcuKuTV7tNG8XfQtUPfw/emsMgyaWD+B8I69EaCm8ndEM+qbGwo4FmQD1cQFwE2xjqqrcYshnUR1xxcG9qpqs88meTxONZsYiiHHmS2A7s7MnKF80x2T/E+OY1tWYXk0iV5/yZZFWlgQ4SdyYukSJGLn4kgxPxeT6+rJiS+z4vKBZHsSlzeKwDoXTeWzf8wz3bNKE9dazO6z88gybLJ3D3n7PnkOepTQaq0/E9nu4jdVopaV6Exto/cofFpb1qnXZjJsWJDL5/WqoMfXw4AK5AdNffIFKQZCAEkKyVDQJRMqk6AwLgVDzAX74Q2tFrD/sloVerPXWBNY+++fYpS6lGzWa9E0i5H71K5lnp/omCLtr04sbDzU2qMaZtDS0xtv9kBhSkKg8ZnY7oaNqg0++OYXWn5hw3YdUMaP+QRpIAnxFQqArtVXWArNqvthkw13x4f4pcb77xSOJRd6PMfPHSIMa8kYOsipSVq6yVop//5mC74T9VsPt3hyo781tz17LsyDz+eGN9XqnlE02dMdiUfqMudR/rHdoK/WNhbN65DQ0OSRYyfl8A/NJdD4DriKeuJxaVD234p48D91odaJr1/kRIQMoFR/bz3O45MVfGwpQFQtZHphNah9OVZemxPN/DpEbAoMY+A2lx0EZjx9IRR07CUeiNjGsKfWgxBn1lCWnJ/QA5lTFIw4Fp+6+fx0y1bTA64xTl6jQ84Ztx1EmvCHLvmyb1kbfvZTQ/ZTr5yZU9YAdyTwmTLzQk6owKskY3hP5f1VnB6/cz6R6R2FI4Pl0hE0d1GBT6diR+6QybXrLVoBAImaop8KRAWHEMWQL7G8MvcQsEnBBZKfD2dwiR0M+auJZO67RUMTtPQIl4GJWvP4ax28i2UO/SN1Ob0Ks/2GPegg68M7kPYI1foG8dhUceZZot4/6c6MmXGG5Y+ZpPKPNWeq8qsPpMGFiltW8oI7cuF1wNSkjREIKwmUhV8b11jfWqYEwFk7nR2GO6KWesjN4y8LDF9LREFGEJTC3UbfUJHvdK21daGtbAd2WPbhXZ3slvgeKFwl8sPqSIt8jODepQJ25LIsrqFT8nhDsdUmgCzWJ1gSJ/65HBM/1z+4gYgKM5tSVPsOZHgDnmqC319CughzVLvaXb/0hmxbwFv0mfC0OBMUYpnadujtxJt/51yjLJavJmnnwvQBXWxxcw3z4dmxXAMqMHvSNnkaw0+Voe3HkgywhcxEVsC5BCqQAU8L+XMXhbdKdpPatO2bqDxomEQK+OdDnnMnoQ97L/RUAwbW3RD4V8pUFF887X+Qj1Ne/oGCL+GM9r5P02h461nOpa5BBfWw1bp2UjSY7JL0D2TsKk771zNaxEjTQG2vFPyQ80/hOXdMKuzADqsppjaPful2cMHT5g4msJxySHq8aQG/NJYeGDKaGLzbVra/o+SLX2Yr5pDOQRCV/MEpjth5VbxNDp73CAldeGDcRnCViHYHMwFq/uFHGvI0YZe2kW3s33zLnrWJWodoQ+xXWw6qmEwxoyr/T7evbHCbRe5hzWZITcUFYtLrDtQrZOVqluvDGGQY4LsP+jJDJ1mDbTDfAIVs4NsbeU8i5bNo3gJATBonojAp5xhT3N+4ufZmqzQK+5MGFGAPKj8OyI6vItjz9C1C9SUsomCW6HJzoECLsbDoEAyO+GlcGEEsoYAKat+sLVRrHo27Vt6HGqrhesNqKjlAI73DnfJSNUUXsX2zKsCFeN5qAD2s+DY9QCgUi3+azqveCtY+Hs+X3/FwC2g4TvVKz8ALiI4L+Jru8Gs4+2aaxLn3v3iwUVPu5H5uCBSVzLCEYaiTlL5Q+6LULEhZdtL0QWvBskn5fHHbWpP7d7RnkywwQoe4aBSp/rCSu8ggO8Os7OTafFqqcM9va1YTm1aWozb4KTJLDNEdg/Extu54i8vJ0jmfbAtXI6mIHjJYtNqWFcXJkvz5d7HICzhZ3mUU+q+YISmk+SW69LVd/a660efBKkV7ZxW+p7uO5lVKOPura8/Dwrjh+uZYW/DbD/xYYlOEwj9NGlmsoVAtPaZ1VsV0fHdlgjlTYIoBK5B5wK3lKqwwgVLnN6V6JoQvErzbYbTUuPXQ7AFLeA6sdX5mn3gBlk25SXuZMTfsoKMHdzmJqaCHzKLaw4F/IxqAcpval59/uAlQ4fwUL6bwXCq7iXFcJlf/bzj8Voed6lSARGZz/eyulvqKy0RRnIsIplhw8It0xEaFLsnkqWCQnEO4E1kjs4p0VEADiWoA7evH7gqzpv9piG20qeSW/zRMBNusXyX8Lhga5zLtd/nZPEJLTHFIkzX8eaFrEUExhCLhxRy8hctps0OFRtqhBwMSdQZmOXPKcAg8ChP9cXjyu6dYAAHO3m1cIAi+WZ7YwONnbZSfuo47lMKbEQptf/H7+gw8/plcDmm1rzPNwxOUVZxzzw4eZB2adtOEfKfl+jEZDJ4DTXtqvRoQS+JuVdj81j2JODp7JVwth4DgWX+CFGKmLZmOff5/6BqmW0xJk6Etut57hqmYtFUfMIWBnfCHtKZStpHCPM+ej7qtTDFpmd6OD3xt5Ry0tqiYWmXXiqHK2ldqJD4IOc/BqiVSJcT0Thua6bk7/5UwBlBr58D/go85kS20RcTakJ5PuytKpBF6y7dPb8z9llt1+YLTQ9muN9o+qgJr2SJwN9n/pCdeJztJk1pRpiukjKL5bsLCXXdIVq77x+oMwmD5OrjbCqCscf9/y20Cm4yT08NmiW5gfmUH03nUErIBmWWVzLhfceGXUjluU+d8sACjnr5P4d/cxK/17cne6wIFqcTBCMW7Xrr8dwE/iyKDlq8iorWf8hueX7MUHD3RUTTTyHXAhXZppV+VYVK7ZJGbeIoYPh8b72AEZYf1KGy9ZWvHCEFyn4pjd1ynulsLBGNARNDmwsJ88POfFlNM1vywMyo+1qzI6ZrSskPDsZ8zR1/Tx2NCtB7zF54Lvvu8S80Rfh4vx91FZ9f4Lxu+NwrDOe+4j6Uz6+QmffORYPnW8ljDRo3q4id7OAVeZbmwAiZBOa6ArEcKr4aY2rd262etDe5pdiZwMJOsMxjxCVwjN8ShdBTOsnsAi8rrZFyJFiYGMAAd5vqahKr+Y6mv4laFxbdNxwwaRuBuVw7mLsW+HIxF66Q+g8AdrMhUTibm92XkIproGnj66ZcnBxFwwQEYdXEFfOKVOzTY4Y0JKvjPwmgIn1XooDWJAm4dlyUY2iGNPdBRWG830zW8khBpY+IIqj/EmFufPcf7HaA0Z5b2cw9GkDI8mULk/k3X+oIF46CoyD8+5DUisCAQ5x4eCV+eHTDsUmt1s2/1THiVTPY+AXYk6QNHukc0Omg1tfIFAWgk0uxt9xbrwpiWhbNWJc1+CRDzn+HeQh/F6+xnlQO/iGkbl/8A7GyWObmrHyp+gRKNnBv4qRH1CTuM9ZmC96Wm6MApOy8tUjVmtuNgsMqECFAFYOUmxfJSAn7XxylxVVB5t3+8enTH6ZfYTMQhxE43t2vSaetA==}"
+          scope: GLOBAL
+          username: "jenkins"
+      - basicSSHUserPrivateKey:
+          id: "bbcloudjenkinsslave"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "git1"
+      - bitbucketToken:
+          description: "jenkinsmulticredsbranch"
+          id: "jenkinsmulticredsbranch"
+          secret: "{AQAAABAAAADQeOegKOVUGTO9qbzHpCyV21/TJEJlf8mJ8FVN+dtzzdfDDAOBeDo4ZjKtCicG5v/wJmrvWgZR8RP5mjidkHsj3Tv2abgkR5iS+9abkKXvbcMa2k+NNCfJB4ZjllYC2erxt/atQRoKF0ey1C/8Zvqp0s2VYqwTm4esBO2WSJKYHLLNX613xYf0s9PQUgwKrgOKGPKbWYAhKAz6hyMhokjI6va1FwVmjpwsQs0AL2r287pYRAOT096ya9i0o8iFS2V8knPKzwZ9CxfewXaw2tD6CvyhuxWxvVnS5FxjNyFG3DQ=}"
+      domain:
+        description: "Credentials related to Jenkins System"
+        name: "Jenkins"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "hudson.diagnosis.TooManyJobsButNoView"
+  - "jenkins.diagnostics.SecurityIsOffMonitor"
+  - "OldData"
+  - "hudson.util.DoubleLaunchChecker"
+  - "jenkins.diagnostics.ControllerExecutorsAgents"
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  labelAtoms:
+  - name: "Slave"
+  - name: "cg-slave"
+  - name: "master"
+  - name: "slave-new"
+  - name: "tenet"
+  - name: "tenet-slave"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodeMonitors:
+  - diskSpaceMonitor:
+      freeSpaceThreshold: "1GB"
+  - tmpSpace:
+      freeSpaceThreshold: "1GB"
+  nodes:
+  - permanent:
+      launcher:
+        ssh:
+          credentialsId: "jenkins-ssh"
+          host: "10.255.22.230"
+          port: 22
+          sshHostKeyVerificationStrategy: "knownHostsFileKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "Slave"
+      numExecutors: 3
+      remoteFS: "/home/jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "cg-slave"
+      launcher:
+        ssh:
+          credentialsId: "jenkins-cg"
+          host: "10.255.153.27"
+          port: 22
+          sshHostKeyVerificationStrategy: "knownHostsFileKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "cg-slave"
+      nodeDescription: "dedicated slave for casual gaming"
+      numExecutors: 3
+      remoteFS: "/home/jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "slave-new"
+      launcher:
+        ssh:
+          credentialsId: "bitbucket-ssh"
+          host: "10.255.147.37"
+          port: 22
+          sshHostKeyVerificationStrategy: "knownHostsFileKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "slave-new"
+      numExecutors: 3
+      remoteFS: "/home/jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "tenet"
+      launcher:
+        ssh:
+          credentialsId: "jenkins-ssh"
+          host: "10.255.24.71"
+          port: 22
+          sshHostKeyVerificationStrategy: "knownHostsFileKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "tenet-slave"
+      numExecutors: 3
+      remoteFS: "/home/jenkins"
+      retentionStrategy: "always"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    googleOAuth2:
+      clientId: "153543973982-p4u58k67u9751dq2gqbq5f0i8venihnd.apps.googleusercontent.com"
+      clientSecret: "{AQAAABAAAAAw+8le6vO+KXSljGPAl3/JK69+Hcip6EbLHYh8dmtbkzKNYUPp9NX/TbAmE93HNLqyStmMv7hiWjUPjTB07psDFw==}"
+  slaveAgentPort: 0
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  prism:
+    theme: DARK
+  simpleTheme:
+    elements:
+    - cssUrl:
+        url: "https://tobix.github.io/jenkins-neo2-theme/dist/neo-light.css"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  copyartifact:
+    mode: PRODUCTION
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: true
+  queueItemAuthenticator:
+    authenticators:
+    - global:
+        strategy: "triggeringUsersAuthorizationStrategy"
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedScriptHashes:
+    - "017d0db438428731cd600b6ebda805065433520f"
+    - "158c622d4a42794efb08bf9b913824df5b83107f"
+    - "239b1f8208214b22e1d2c3542fb49fbc4280bca3"
+    - "4a4d576c0d235f19650062f52205e3f52c90c11e"
+    - "56802296795c42df3defd0eb02627cc94c057969"
+    - "64739c50896c9e0749ed1f5af248dc1f3a660955"
+    - "9ec08f613de5e01591b6e9c510522203afb11493"
+    - "af84a3f17dbf842cebc48404718b4f4e7ff63102"
+    - "bd2e798a8c8ad2f57402a03de784ee835aafd801"
+unclassified:
+  aWSCodeDeployPublisher:
+    awsSecretKey: "****"
+    externalId: "88f702db-40e1-47c3-9326-63de9f013724"
+    proxyPort: 0
+  bitbucketBuildStatusNotifier:
+    globalCredentialsId: "Jenkins-build-status"
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        bitbucketJenkinsRootUrl: "https://jenkins.tech.gameskraft.in/"
+        credentialsId: "webhook-trigger-jenkins"
+        enableCache: false
+        manageHooks: true
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  bitbucketPluginConfiguration:
+    serverList:
+    - adminCredentialsId: "be4625b3-d9fc-491b-bafe-5c3d28cf6faa"
+      baseUrl: "https://repo.gameskraft.in/"
+      id: "a36c526a-ba1a-4e06-92d6-39fd8a30c60b"
+      serverName: "Gameskraft - Bitbucket"
+    - adminCredentialsId: "jenkins-tech-integration"
+      baseUrl: "https://repo.tech.gameskraft.com/"
+      id: "e51ad68b-9343-40c0-aa7b-37038e627bce"
+      serverName: "GK-Repo-Tech"
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  buildUserVars:
+    allBuilds: false
+  defaultFolderConfiguration:
+    healthMetrics:
+    - worstChildHealthMetric:
+        recursive: true
+  enrichedSummaryConfig:
+    enrichedSummaryEnabled: false
+    httpClientDelayBetweenRetriesInSeconds: 1
+    httpClientMaxRetries: 3
+    httpClientTimeoutInSeconds: 1
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  globalSlackNotifier:
+    notifyOnAborted: false
+    notifyOnFail: false
+    notifyOnNotBuilt: false
+    notifyOnSuccess: false
+    notifyOnUnstable: false
+  globalTimeOutConfiguration:
+    operations:
+    - "abortOperation"
+    overwriteable: false
+  injectionConfig:
+    allowUntrusted: false
+    checkForBuildAgentErrors: false
+    enabled: false
+    enforceUrl: false
+    gradleCaptureTaskInputFiles: true
+    injectCcudExtension: false
+    injectMavenExtension: false
+    mavenCaptureGoalInputFiles: true
+  jobConfigHistory:
+    excludePattern: "queue\\.xml|nodeMonitors\\.xml|UpdateCenter\\.xml|global-build-stats|LockableResourcesManager\\\
+      .xml|MilestoneStep\\.xml"
+    saveModuleConfiguration: false
+    showBuildBadges: "always"
+    showChangeReasonCommentWindow: true
+    skipDuplicateHistory: true
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+    url: "http://jenkins.tech.gameskraft.in/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  notifyBitbucket:
+    considerUnstableAsSuccess: false
+    disableInprogressNotification: false
+    ignoreUnverifiedSsl: false
+    includeBuildNumberInKey: false
+    prependParentProjectKey: false
+  pipelineStepsAWS:
+    enableCredentialsFromNode: false
+  pollSCM:
+    pollingThreadCount: 10
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  slackNotifier:
+    botUser: false
+    sendAsText: false
+    teamDomain: "gameskraft"
+    tokenCredentialId: "jenkins-ci-slack-token"
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+    installations:
+    - credentialsId: "sonar-de"
+      name: "SonarQube"
+      serverUrl: "https://sonarqube.tech.gameskraft.com"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+  sshPublisher:
+    commonConfig:
+      disableAllExec: false
+      encryptedPassphrase: "{AQAAABAAAAAQo5mgkwa/0XKVf+XMDY2E0NLm3hGNf+bsYpZVN3Gqn/w=}"
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  upstream:
+    globalUpstreamFilterStrategy: UseOldest
+  whitelist:
+    enabled: false
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  go:
+    installations:
+    - name: "go-1.16"
+      properties:
+      - installSource:
+          installers:
+          - golangInstaller:
+              id: "1.16"
+    - name: "go-1.22.5"
+      properties:
+      - installSource:
+          installers:
+          - golangInstaller:
+              id: "1.22.5"
+  gradle:
+    installations:
+    - name: "gradle-4.10.2"
+      properties:
+      - installSource:
+          installers:
+          - gradleInstaller:
+              id: "4.10.2"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  nodejs:
+    installations:
+    - name: "NodeJS-20.14.0"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "20.14.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-20.12.2"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "20.12.2"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-18.18.0"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "18.18.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+          - nodeJSInstaller:
+              id: "21.5.0"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-12.18.3-tsc@3.9.7"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "12.18.3"
+              npmPackages: "typescript@3.9.7"
+              npmPackagesRefreshHours: 72
+          - nodeJSInstaller:
+              id: "16.20.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-14.15.1"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "14.15.1"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-12.18.3"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "12.18.3"
+              npmPackages: "typescript nyc mocha"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-10.24.0"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "10.24.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-18.13.0"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "18.13.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+    - name: "NodeJS-16.20.0"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "16.20.0"
+              npmPackages: "typescript"
+              npmPackagesRefreshHours: 72
+  sonarRunnerInstallation:
+    installations:
+    - name: "sonar_scanner"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "6.2.1.4610"
